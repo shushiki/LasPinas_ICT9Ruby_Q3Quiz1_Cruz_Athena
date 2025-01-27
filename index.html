@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"; rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+	
+	body {
+		text-align: center;
+		color: #3D5300;
+		background-image: url(https://i.pinimg.com/736x/84/d3/32/84d3325978ce1b6845e466e501995509.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	h1{
+		border: solid;
+		border-color: #627254;
+		background-color: #F4FFC3;
+	}
+
+	.container {
+		border: solid;
+		border-color: #627254;
+		background-color: #F6FFDE;
+	}
+
+	button {
+		color: #D4E7C5;
+		border: solid;
+		border-color: #BFD8AF;
+		background-color: #294B29;
+	}
+
+</style>
+
+	<title></title>
+
+</head>
+<body>
+
+<br>
+<br>
+
+<h1> If a = 20 and b = 5, compute the following. </h1>
+
+<br>
+<br>
+
+	<div class="container">
+		
+		<script>
+			
+			var a, b, c, d;
+
+			a= 20;
+			b= 5;
+			c = a%b;
+			d = a%b;
+
+		</script>
+
+		<h3> Artimect Operator </h3>
+		<h5> a. Exponent: 3200000 </h5>
+		<h5> b. Mod: 0 </h5>
+
+		<br>
+
+		<button type="button" onclick="document.getElementById('Answer1').innerHTML = '<h5>' + 'Exponent: ' + d + '</h5>';">Show Answer for A.</button>
+		<br>
+		<p id="Answer1"> </p>
+		<br>
+		<button type="button" onclick="document.getElementById('Answer12').innerHTML = '<h5>' + 'Mod: ' + c + '</h5>';">Show Answer for B.</button>
+		<br>
+		<p id="Answer12"> </p>
+
+	</div>
+
+	<br>
+	<br>
+
+	<div class="container">
+		
+		<script>
+			
+			var e, f, h, i;
+
+			e= 20;
+			f= 5;
+			g = e==f;
+			h = e>f;
+
+		</script>
+
+		<h3> Comparison Operator </h3>
+		<h5> B. is a greater than b?: true </h5>
+		<h5> B. is a equal to b?: false </h5>
+
+		<br>
+
+		<button type="button" onclick="document.getElementById('Answer2').innerHTML = '<h5>' + 'is a greater than b?: ' + h + '</h5>';">Show Answer for A.</button>
+		<br>
+		<p id="Answer2"> </p>
+		<br>
+		<button type="button" onclick="document.getElementById('Answer22').innerHTML = '<h5>' + 'is a equal to b?: ' + g + '</h5>';">Show Answer for B.</button>
+		<br>
+		<p id="Answer22"> </p>
+
+	</div>
+
+	<br>
+	<br>
+
+	<div class="container">
+		
+		<script>
+			
+			var i, j, k, l;
+
+			i= 20;
+			j= 5;
+			k = (j<=k && j>=k);
+			l = (j!=k || j!=k)
+
+		</script>
+
+		<h3> Logical Operator </h3>
+		<h5> A. (a <= b) && (a >= b): false? </h5>
+		<h5> B. (a != b) || (a == b): true? </h5>
+
+		<br>
+
+		<button type="button" onclick="document.getElementById('Answer3').innerHTML = '<h5>' + 'a. (a <= b) && (a >= b): ' + k + '</h5>';">Show Answer for A.</button>
+		<br>
+		<p id="Answer3"> </p>
+		<br>
+		<button type="button" onclick="document.getElementById('Answer32').innerHTML = '<h5>' + 'a. (a <= b) && (a >= b): ' + l + '</h5>';">Show Answer for B.</button>
+		<br>
+		<p id="Answer32"> </p>
+
+	</div>
+
+</body>
+</html>
